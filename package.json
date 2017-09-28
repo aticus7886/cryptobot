@@ -1,0 +1,33 @@
+{
+  "name": "cryptobot",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "body-parser": "1.17.1",
+    "cors": "2.8.3",
+    "express": "4.15.2",
+    "helmet": "3.6.1",
+    "joi": "10.4.1",
+    "joi-date-extensions": "1.0.2",
+    "lodash": "4.17.4",
+    "request": "2.81.0",
+    "request-promise": "4.2.0",
+    "request-promise-native": "1.0.3",
+    "uuid": "3.0.1"
+  },
+  "devDependencies": {
+    "chai": "4.0.2",
+    "chai-as-promised": "7.1.1",
+    "cucumber": "2.3.1",
+    "eslint": "4.1.1",
+    "mocha": "3.4.2",
+    "nyc": "11.0.3",
+    "prettier": "1.6.1",
+    "sinon": "2.3.6",
+    "sinon-chai": "2.11.0"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
