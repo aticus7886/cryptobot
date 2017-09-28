@@ -1,0 +1,10 @@
+parserOptions:
+  ecmaVersion: 2017
+  sourceType: script
+env:
+  node: true
+  es6: true
+  mocha: true
+extends: eslint:recommended
+rules:
+  no-console: off
